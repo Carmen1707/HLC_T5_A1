@@ -1,2 +1,2 @@
-usuario = input("¿Introduce tu usuario?")
+usuario = input("Introduce tu usuario")
 print("Hola,", usuario)
