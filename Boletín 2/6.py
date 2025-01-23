@@ -1,9 +1,8 @@
-n1 = int(input("Introduce el primer numero:"))
-n2 = int(input("Introduce el segundo numero:"))
-if n1>n2:
-    print ( n1, "es mayor que" , n2)
-elif n1<n2:
-    print( n1 ,"es menor que" ,n2)
-else:
-    print("Los dos valores son iguales")
+def check_chars():
+    word = input("Introduce la palabra")
 
+    for char in word:
+        if "@" == char:
+            print("la palabra tiene el caracter @")
+        if "@" == char:
+            print ("La palabra tiene el caracter #")
